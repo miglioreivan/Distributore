@@ -18,7 +18,6 @@ public class Distributore {
         pb1.rifornisci(x);
         euro = JOptionPane.showInputDialog("Importo per l'acquisto: ", "");
         z = Double.valueOf(euro).doubleValue();
-        System.out.println("Prezzo: " + z);
         pb1.vendi(z, x, y);
 
 
