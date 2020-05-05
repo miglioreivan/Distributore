@@ -16,7 +16,7 @@ public class PompaBenzina {
         if(spazio>=q){
             deposito = deposito + q;
             System.out.println("Deposito da inserire " + q);
-            System.out.println("Depostio " + deposito);
+            System.out.println("Deposito " + deposito);
             JTextField text = new JTextField("Vi sono in deposito "+ deposito +" litri.");
             JOptionPane.showMessageDialog(null, text.getText());
         }else{
