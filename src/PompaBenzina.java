@@ -7,7 +7,7 @@ public class PompaBenzina {
     private double maxd = 50000;
 
     public PompaBenzina(double exl){
-        euroxlitro = exl;
+        euroxlitro=exl;
         deposito = 0;
     }
 
@@ -27,8 +27,15 @@ public class PompaBenzina {
         }
     }
 
-    public void vendi(double z){
-
+    public void vendi(double z1, double v, double z){
+        z = z1*z;
+        if(z<=v){
+            JTextField text = new JTextField("Hai comprato " + z + " di litri di benzina.");
+            JOptionPane.showMessageDialog(null, text.getText());
+        }else{
+            JTextField text = new JTextField("Non ci sono litri sufficienti nel distributore.");
+            JOptionPane.showMessageDialog(null, text.getText());
+        }
     }
 
 }
