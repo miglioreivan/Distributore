@@ -27,8 +27,8 @@ public class PompaBenzina {
         }
     }
 
+    public void vendi(double z){
 
-
-
+    }
 
 }
