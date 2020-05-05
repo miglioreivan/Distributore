@@ -17,6 +17,6 @@ public class Distributore {
         euro = JOptionPane.showInputDialog("Importo per l'acquisto: ", "");
         z = Double.valueOf(euro);
         pb1.vendi(z, x, y);
-
+//prova
     }
 }
