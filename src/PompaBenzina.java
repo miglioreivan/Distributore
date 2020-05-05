@@ -2,12 +2,10 @@ import javax.swing.*;
 
 public class PompaBenzina {
 
-    double euroxlitro;
     double deposito;
     private double maxd = 50000;
 
-    public PompaBenzina(double exl){
-        euroxlitro=exl;
+    public PompaBenzina(){
         deposito = 0;
     }
 
