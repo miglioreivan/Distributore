@@ -10,9 +10,9 @@ public class Distributore {
         String euro;
 
 
+        PompaBenzina pb1 = new PompaBenzina();
         prezzo = JOptionPane.showInputDialog("Inserire il prezzo per litro: ", "");
         y = Double.valueOf(prezzo).doubleValue();
-        PompaBenzina pb1 = new PompaBenzina();
         rifornimento = JOptionPane.showInputDialog("Inserire i litri per il rifornimento: ", "");
         x = Double.valueOf(rifornimento).doubleValue();
         pb1.rifornisci(x);
